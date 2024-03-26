@@ -25,9 +25,6 @@
           fontFamily: {
             'Barlow_Semi_Condensed': ['Barlow Semi Condensed', 'sans-serif'],
           },
-          margin: {
-            '320px': '-320px'
-          },
           right: {
             '160px': '160px'
           },
@@ -57,10 +54,13 @@
 </head>
 
 <body class="bg-blue-200">
-  <div class="ml-6 mt-20 mb-10 lg:mt-16 lg:mb-10 lg:mx-16 lg:flex lg:flex-row lg:flex-wrap">
+  <div class="ml-6 mt-10 mb-10 lg:mt-10 lg:mb-2 lg:mx-16 lg:flex lg:flex-row lg:flex-wrap">
 
     <!-- Daniel Clifford-->
-    <div class="p-8 w-80 lg:w-6/12 bg-purple-700 rounded-lg relative ">
+    <div class="p-6 w-60 lg:w-6/12 bg-purple-700 rounded-lg relative text-white">
+      <img src="./images/bg-pattern-quotation.svg" alt="quote-pattern"
+        class="absolute w-100 h-100 top-3 right-5 lg:right-[160px] opacity-60">
+
       <div class="flex items-center gap-2 color p-3">
         <img class="rounded-full" src="/images/image-daniel.jpg" alt="daniel Clifford headshot">
         <div class="">
@@ -84,7 +84,7 @@
       </p>
     </div>
 
-    <div class="p-8 w-80 bg-jonathan rounded-lg ml-0 mt-4 lg:w-3/12 lg:mt-0 lg:ml-6">
+    <div class="p-6 w-60 bg-jonathan rounded-lg ml-0 mt-4 lg:w-3/12 lg:mt-0 lg:ml-6 text-white">
       <div class="flex items-center gap-2 color p-3">
         <img class="rounded-full" src="/images/image-jonathan.jpg" alt="Jonathan Walters headshot">
         <div>
@@ -103,7 +103,7 @@
       </p>
 
     </div>
-    <div class="p-8 w-80 bg-kira rounded-lg ml-0 mt-4 lg:mt-4 lg:w-3/12 lg:ml-0">
+    <div class="p-6 w-60 bg-kira rounded-lg ml-0 mt-4 lg:mt-4 lg:w-3/12 lg:ml-0">
       <div class="flex items-center gap-2  p-3">
 
         <img class="rounded-full" src="/images/image-jeanette.jpg" alt="Jeanette Harmon headshot">
@@ -116,13 +116,13 @@
       <h1 class="p-3 font-bold">
         An overall wonderful and rewarding experience
       </h1>
-      <p class="p-5 text-xs font-medium">
+      <p class="p-5 text-xs font-medium text-gray-700">
         “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
         while doing something I love. ”
       </p>
 
     </div>
-    <div class="p-8 w-80 bg-patrick rounded-lg ml-0 mt-4 lg:mt-4 lg:w-6/12  lg:ml-4">
+    <div class="p-6 w-60 bg-patrick rounded-lg ml-0 mt-4 lg:mt-4 lg:w-6/12  lg:ml-4 text-white">
       <div class="flex items-center gap-2 color p-3">
 
         <img class="rounded-full" src="/images/image-patrick.jpg" alt="Patrick Abrams headshot">
@@ -150,7 +150,7 @@
       </p>
     </div>
 
-    <div class="p-8 w-80 bg-kira grow rounded-lg ml-0 mt-4 lg:w-1/12 lg:ml-5 lg:-mt-[360px]">
+    <div class="p-6 w-60 bg-kira grow rounded-lg ml-0 mt-4 lg:w-1/12 lg:ml-5 lg:-mt-[320px]">
       <div class="flex items-center gap-2 color p-3">
         <img class="rounded-full" src="/images/image-kira.jpg" alt="Kira Whittle headshot">
         <div>
@@ -162,7 +162,7 @@
 
         Such a life-changing experience. Highly recommended!
       </h1>
-      <p class="p-5 text-xs font-medium">
+      <p class="p-5 lg:pb-0 text-xs font-medium text-gray-700">
 
         “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
         professionals who can help me learn programming step by step. I was encouraged to enroll by a former
@@ -175,7 +175,11 @@
       </p>
 
     </div>
-
+  </div>
+  <div class="attribution font-['Barlow_Semi_Condensed'] font-bold lg:mt-0">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/AnwarMestycer" class="font-['Barlow_Semi_Condensed']"
+      target="_blank">Anwar Mestycer</a>.
   </div>
 
 </body>
